@@ -1,0 +1,97 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    background-color: gray ;
+    color: white;
+    width: 50%;
+    height: fit-content;
+    font-size: 40px;
+    box-shadow: 5px 5px 18px rgb(0, 0, 0);
+        animation-name: something;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+}@keyframes something{
+    from{
+      color: rgb(255, 255, 255);
+      text-shadow: 5px 5px 18px black;
+        background-color: gray;
+    }
+    to{
+        text-shadow: 5px 5px 18px black;
+        color: rgba(128, 128, 128, 0);
+        background-color: rgba(128, 128, 128, 0);
+    }
+}
+
+#heading_div{
+        box-shadow: 5px 5px 18px black;
+        border: 3px black;
+        border-radius: 7px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        padding: 10px;
+        width: 40%;
+       text-align: center;
+       float: none;
+       font-size: 25px;
+}
+.objects{
+    font-size: 20px;
+    box-shadow:5px 5px 18px black;
+    background-color: gray;
+    
+}
+
+.O{
+    font-size: 30px;
+    box-shadow: 10px 10px 18px black;
+    width: 20%;
+    color: black;
+    border-radius: 10px;
+}
+.A{
+    font-size: 30px;
+    box-shadow: 10px 10px 18px black;
+    width: 20%;
+    color: black;
+    border-radius: 10px;
+}
+#Object,#Accuracy{
+    
+    color: black;
+    font-weight: bold;
+     font-variant:small-caps;
+
+}
+#footer{
+    width: 100%;
+    position:fixed;
+    background-color: rgb(0, 0, 0);
+    font-size: medium;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    bottom: 0;
+    line-height: 3;
+    animation-name: hi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}@keyframes hi{
+    0% {background-color:rgb(255, 255, 255);}
+    35% {background-color:rgb(139, 138, 135);}   
+    50% {background-color:rgb(0, 0, 0);}
+    100% {background-color:rgba(0, 0, 0, 0.212);}
+    0% {color:rgb(0, 0, 0);}
+    35% {color:rgb(255, 255, 255);}   
+    50% {color:rgb(255, 255, 255);}
+    100% {color:rgb(0, 0, 0);}
+}
+canvas{
+    box-shadow:10px 10px 18px black;
+    border: 10px black dotted;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 300px;
+}
