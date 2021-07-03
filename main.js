@@ -5,7 +5,7 @@ function preload(){
 
 function setup(){
  canvas=createCanvas(300,300);
-     canvas.position(510,350);
+     canvas.position(510,450);
      video=createCapture(VIDEO);
      video.hide();
      classifier=ml5.imageClassifier('https:teachablemachine.withgoogle.com/models/7d9VBo_lq/model.json',modelLoaded);
